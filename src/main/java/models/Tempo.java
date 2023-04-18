@@ -20,6 +20,11 @@ public class Tempo {
 		return age;
 	}
 
+	@Override
+	public String toString() {
+		return "Tempo [name=" + name + ", age=" + age + "]";
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Main method");
