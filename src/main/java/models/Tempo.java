@@ -3,6 +3,7 @@ package main.java.models;
 public class Tempo {
 	private String name;
 	private int age; 
+	private String sample;
 	
 	public void setName(String name) {
 		this.name = name;
